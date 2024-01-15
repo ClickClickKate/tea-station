@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tea Station || Home</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.1-web/css/all.min.css"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavours of</h2>
+        <h1>specially<br />crafted tea</h1>
+        <a href="skills.html" class="btn banner-btn">Explore</a>
+      </div>
+    </header>
+    <!-- end of header - br puts on new line, two classes for button as all buttons will be same but banner will be bigger-->
+
+    <!-- line underneath main hero - content divider -->
+    <div class="content-divider"></div>
+
+    <!-- end of line -->
+
+    <!-- skills section using floats============================== -->
+    <!-- semantic html for the whole section and within the section each skill is an article as semantic html -->
+
+    <section class="skills clearfix">
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon"><i class="fas fa-mug-hot"></i></span>
+        <h4 class="skill-title">Made in US</h4>
+        <p class="skill-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, enim!
+        </p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon"><i class="fas fa-glass-cheers"></i></span>
+        <h4 class="skill-title">Relaxion</h4>
+        <p class="skill-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, enim!
+        </p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon"><i class="fas fa-bomb"></i></span>
+        <h4 class="skill-title">Energy</h4>
+        <p class="skill-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, enim!
+        </p>
+      </article>
+      <!-- end of single skill -->
+      <!-- single skill -->
+      <article class="skill">
+        <span class="skill-icon"><i class="fas fa-mortar-pestle"></i></span>
+        <h4 class="skill-title">Family Recipe</h4>
+        <p class="skill-text">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, enim!
+        </p>
+      </article>
+      <!-- end of single skill -->
+    </section>
+
+    <!-- ============= end of skills section ======================== -->
+    <!-- ========== about section 2 column layout =================== -->
+    <section>
+      <div class="section-center clearfix">
+        <!-- about img -->
+        <article class="about-img">
+          <div class="about-picture-container">
+            <img
+              src="./images/about-bcg.jpeg"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+        </article>
+        <!-- only needed to contain img as we have a rollover effect, stationary img would just be img-->
+        <!-- about info-->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>about our</h3>
+            <h2>tea station</h2>
+          </div>
+          <!-- end section title -->
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            maxime harum reprehenderit eveniet nesciunt adipisci!
+          </p>
+          <p class="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            maxime harum reprehenderit eveniet nesciunt adipisci!
+          </p>
+          <a href="about.html" class="btn">Learn more</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================ end of about section ================ -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
